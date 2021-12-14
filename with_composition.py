@@ -15,7 +15,6 @@ class Contract(ABC):
         """Compute how much to pay an employee under this contract."""
 
 
-@dataclass
 class Commission(ABC):
     """Represents a commission payment process."""
 
