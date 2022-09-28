@@ -8,7 +8,7 @@ from typing import Optional
 
 
 class Contract(ABC):
-    """Represents a contract anda payment process for a particular employeee."""
+    """Represents a contract and a payment process for a particular employeee."""
 
     @abstractmethod
     def get_payment(self) -> float:
